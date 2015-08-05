@@ -2516,15 +2516,16 @@
 			order: 1;
 			border-radius: 0;
 			width: 40%;
+			overflow: hidden;
 		}
 
 			.spotlight .image img {
 				border-radius: 0;
-				width: 100%;
+				width: 150%;
 			}
 
 		.spotlight .content {
-			padding: 2em 4em 0.1em 4em ;
+			padding: 0em 4em 0.1em 4em ;
 			-moz-order: 2;
 			-webkit-order: 2;
 			-ms-order: 2;
@@ -2618,7 +2619,7 @@
 		@media screen and (max-width: 736px) {
 
 			.spotlight .content {
-				padding: 3em 2em 1em 2em ;
+				padding: 2em 2em 3em 2em ;
 			}
 
 		}
